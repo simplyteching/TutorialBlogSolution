@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TutorialBlog.DAL\TutorialBlog.DAL.csproj" />
+    <ProjectReference Include="..\TutorialBlog.Entities\TutorialBlog.Entities.csproj" />
+    <ProjectReference Include="..\TutorialBlog.Helper\TutorialBlog.Helper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
 </Project>
